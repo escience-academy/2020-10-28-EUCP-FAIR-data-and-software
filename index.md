@@ -1,7 +1,7 @@
 ---
 layout: workshop
 venue: "Netherlands eScience Center"
-address: "Online"
+address: "https://fixme.join.link"  # TODO: add zoomlink here
 country: "NL"
 language: "EN"
 latitude: "52"
@@ -12,7 +12,7 @@ startdate: 2020-10-28
 enddate: 2020-11-11
 instructor: ["Peter Kalverla", "Jaro Camphuijsen", "Johan Hidding"]
 helper: ["Sarah Alidoost", "Stef Smeets", "Niels Drost", "Bouwe Andela", "Faruk Diblen"]
-email: ["first@example.org","second@example.org"]
+email: ["p.kalverla@esciencecenter.nl","f.alidoost@esciencecenter.nl"]
 collaborative_notes: FIXME
 eventbrite:
 ---
@@ -50,14 +50,6 @@ research can be more effective and transparent if everyone shares their data,
 methods, codes, tools, analyses and results in a structured way, so that they
 will be reusable and/or reproducible with minimal human effort.
 
-A very concrete implementation of this idea are the FAIR data principles for
-research data management. Many funders nowadays require that researchers
-describe their adherence to these principles in a research data management plan.
-Less concrete, but not less relevant, are ongoing initiatives to implement a
-similar set of FAIR principles for research software, to set up collaborative
-compute environments (shared infrastructure), and all kinds of tools to track
-workflows and provenance information.
-
 This workshop aims to provide an overview of, and facilitate discussion on,
 relevant developments in this landscape of open science, specifically focusing
 on the field of climate sciences. In three sessions, we will cover an
@@ -69,22 +61,6 @@ ESMValTool to streamline and homogeneize scientific workflows.
 **Who**: This workshop is organized by the Netherlands eScience Center for
 project partners in the EUCP (European Climate Prediction) Horizon 2020 project.
 
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
-
-{% comment %}
-LOCATION
-
-This block displays the address and links to maps showing directions
-if the latitude and longitude of the workshop have been set.  You
-can use https://itouchmap.com/latlong.html to find the lat/long of an
-address.
-{% endcomment %}
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
 {% if page.address == "online" %}
 {% assign online = "true_private" %}
@@ -204,7 +180,7 @@ CODE OF CONDUCT
 <p>
 Participants are expected to follow those guidelines:
   <ul>
-    <li>Use welcoming and inclusive languag</li>
+    <li>Use welcoming and inclusive language</li>
     <li>Be respectful of different viewpoints and experiences</li>
     <li>Gracefully accept constructive criticism</li>
     <li>Focus on what is best for the community</li>
@@ -229,7 +205,7 @@ available at https://codimd.carpentries.org
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We will use this <a href="{{ page.collaborative_notes }}">collaborative drive</a> with one document for each workshop day for chatting, taking notes, and sharing URLs and bits of code. During the workshop you may make your own document in this drive to work on the exercises and/or your own use cases.
 </p>
 <hr/>
 {% endif %}
@@ -238,10 +214,8 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<h2 id="surveys">Survey</h2>
+<p>Please provide feedback by completing <a href="{{ site.post_survey }}{{ site.github.project_title }}">this survey</a> after the workshop.</p>
 
 <hr/>
 
@@ -255,42 +229,65 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
-
-<hr/>
-
-{% comment %}
-SYLLABUS
-
-Show what topics will be covered.
-
-1. If your workshop is R rather than Python, remove the comment
-around that section and put a comment around the Python section.
-2. Some workshops will delete SQL.
-3. Please make sure the list of topics is synchronized with what you
-intend to teach.
-4. You may need to move the div's with class="col-md-6" around inside
-the div's with class="row" to balance the multi-column layout.
-
-This is one of the places where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if site.carpentry == "swc" %}
-{% include swc/syllabus.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/syllabus.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/syllabus.html %}
-{% endif %}
+<div class="row">
+    <div class="col-md-4">
+      <h3>FAIR (Climate) data (Oct 28)</h3>
+      <table class="table table-striped"><tbody>
+        <tr> <td>09:00</td>  <td>Connect and get ready</td> </tr>
+        <tr> <td>09:30</td>  <td>Welcome and general information</td> </tr>
+        <tr> <td>09:45</td>  <td>Introduction</td> </tr>
+        <tr> <td>10:00</td>  <td>Data documentation</td> </tr>
+        <tr> <td>10:15</td>  <td>Metadata</td> </tr>
+        <tr> <td>10:30</td>  <td>Coffee break</td> </tr>
+        <tr> <td>10:45</td>  <td>File formats</td> </tr>
+        <tr> <td>11:00</td>  <td>Data access</td> </tr>
+        <tr> <td>11:15</td>  <td>Persistent identifiers</td> </tr>
+        <tr> <td>11:30</td>  <td>Data Licenses</td> </tr>
+        <tr> <td>11:45</td>  <td>Conclusion</td> </tr>
+        <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+        <tr> <td>13:00</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
+        <tr> <td>15:45</td>  <td>Wrap-up (plenary)</td> </tr>
+        <tr> <td>16:00</td>  <td>End</td> </tr>
+      </tbody></table>
+    </div>
+    <div class="col-md-4">
+      <h3>FAIR software (Nov 4)</h3>
+      <table class="table table-striped"><tbody>
+        <tr> <td>09:00</td>  <td>Connect and get ready</td> </tr>
+        <tr> <td>09:30</td>  <td>Welcome and general information</td> </tr>
+        <tr> <td>09:45</td>  <td>Introduction to 5 FAIR software recommendations</td> </tr>
+        <tr> <td>10:00</td>  <td>Use a publicly accessible repository with version control</td> </tr>
+        <tr> <td>10:40</td>  <td>Coffee break</td> </tr>
+        <tr> <td>10:55</td>  <td>Add a license</td> </tr>
+        <tr> <td>11:25</td>  <td>Register your code in a community registry</td> </tr>
+        <tr> <td>11:55</td>  <td>Break</td> </tr>
+        <tr> <td>12:10</td>  <td>Enable citation of the software</td> </tr>
+        <tr> <td>12:40</td>  <td>Use a software quality checklist</td> </tr>
+        <tr> <td>13:10</td>  <td>Lunch break</td> </tr>
+        <tr> <td>14:00</td>  <td>Group discussions and working together on own use cases in breakout rooms</td> </tr>
+        <tr> <td>15:45</td>  <td>Wrap up (plenary)</td> </tr>
+        <tr> <td>16:00</td>  <td>End</td> </tr>
+      </tbody></table>
+    </div>
+    <div class="col-md-4">
+      <h3>ESMValTool (Nov 11)</h3>
+      <table class="table table-striped"><tbody>
+        <tr> <td>09:00</td>  <td>Connect and get ready</td> </tr>
+        <tr> <td>09:30</td>  <td>Welcome and general information</td> </tr>
+        <tr> <td>09:45</td>  <td>Installation</td> </tr>
+        <tr> <td>10:00</td>  <td>Introduction to ESMValTool</td> </tr>
+        <tr> <td>10:15</td>  <td>Configuration</td> </tr>
+        <tr> <td>10:30</td>  <td>Coffee break</td> </tr>
+        <tr> <td>10:45</td>  <td>Running a recipe</td> </tr>
+        <tr> <td>11:30</td>  <td>Coffee break</td> </tr>
+        <tr> <td>11:45</td>  <td>Making your own recipe</td> </tr>
+        <tr> <td>12:30</td>  <td>Lunch break</td> </tr>
+        <tr> <td>13:30</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
+        <tr> <td>15:45</td>  <td>Wrap-up (plenary)</td> </tr>
+        <tr> <td>16:00</td>  <td>End</td> </tr>
+      </tbody></table>
+    </div>
+  </div>
 
 <hr/>
 
@@ -309,7 +306,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  To participate in this
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
