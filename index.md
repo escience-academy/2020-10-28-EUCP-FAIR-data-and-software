@@ -1,46 +1,20 @@
 ---
 layout: workshop
 venue: "Netherlands eScience Center"
-address: "https://fixme.join.link"  # TODO: add zoomlink here
+address: "https://us02web.zoom.us/j/82865220880"
 country: "NL"
 language: "EN"
 latitude: "52"
 longitude: "4"
 humandate: "Oct 28, Nov 4, Nov 11, 2020"
-humantime: "9:30 - 16:00 CET"
+humantime: "9:15 - 16:00 CET"
 startdate: 2020-10-28
 enddate: 2020-11-11
 instructor: ["Peter Kalverla", "Jaro Camphuijsen", "Johan Hidding"]
-helper: ["Sarah Alidoost", "Stef Smeets", "Niels Drost", "Bouwe Andela", "Faruk Diblen"]
+helper: ["Sarah Alidoost", "Stef Smeets", "Niels Drost", "Bouwe Andela", "Faruk Diblen", "Ou Ku"]
 email: ["p.kalverla@esciencecenter.nl","f.alidoost@esciencecenter.nl"]
-collaborative_notes: FIXME
-eventbrite:
+collaborative_notes: https://nlesc.sharepoint.com/:f:/s/team-beta/EgtUYOWdlfFNsmgpJxAKqiwBmBLuoqw0wc3_69SLq0gtpQ
 ---
-
-
-{% comment %}
-Check DC curriculum
-{% endcomment %}
-
-{% if site.carpentry == "dc" %}
-{% unless site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-socsci" or site.curriculum == "dc-geospatial" %}
-<div class="alert alert-warning">
-It looks like you are setting up a website for a Data Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: "<strong>{{ site.curriculum }}</strong>", possible values: <code>dc-ecology</code>, <code>dc-genomics</code>, <code>dc-socsci</code>, or <code>dc-geospatial</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
-</div>
-{% endunless %}
-{% endif %}
-
-{% comment %}
-Check SWC curriculum
-{% endcomment %}
-
-{% if site.carpentry == "swc" %}
-{% unless site.curriculum == "swc-inflammation" or site.curriculum == "swc-gapminder" %}
-<div class="alert alert-warning">
-It looks like you are setting up a website for a Software Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: "<strong>{{ site.curriculum }}</strong>", possible values: <code>swc-inflammation</code>, or <code>swc-gapminder</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
-</div>
-{% endunless %}
-{% endif %}
 
 <h2 id="general">General Information</h2>
 
@@ -56,7 +30,6 @@ on the field of climate sciences. In three sessions, we will cover an
 interpretation of the FAIR data principles in the context of climate sciences,
 the basic principles for sharing software in a FAIR manner, and the use of
 ESMValTool to streamline and homogeneize scientific workflows.
-
 
 **Who**: This workshop is organized by the Netherlands eScience Center for
 project partners in the EUCP (European Climate Prediction) Horizon 2020 project.
@@ -82,8 +55,7 @@ project partners in the EUCP (European Climate Prediction) Horizon 2020 project.
 <p id="where">
   <strong>Where:</strong>
   online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
+  You will need a passcode to enter to zoom meeting, which will be send to you by email.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
@@ -111,39 +83,8 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> Please refer to the <a href="#setup">setup instructions below</a> about videoconferencing, github account, and the required setup for ESMValTool.
 </p>
-
-{% comment %}
-ACCESSIBILITY
-
-Modify the block below if there are any barriers to accessibility or
-special instructions.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong>
-{% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody. The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-<p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
-{% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
-</p>
-{% endif %}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -205,7 +146,7 @@ available at https://codimd.carpentries.org
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative drive</a> with one document for each workshop day for chatting, taking notes, and sharing URLs and bits of code. During the workshop you may make your own document in this drive to work on the exercises and/or your own use cases.
+We will use this <a href="{{ page.collaborative_notes }}">collaborative drive</a> with one document for each workshop day for taking notes and sharing URLs and bits of code. During the workshop you may make your own document in this drive to work on the exercises and/or your own use cases. Before the workshop, you will receive an invitation via email that will give you access to this folder.
 </p>
 <hr/>
 {% endif %}
@@ -214,8 +155,13 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative drive</a
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Survey</h2>
-<p>Please provide feedback by completing <a href="{{ site.post_survey }}{{ site.github.project_title }}">this survey</a> after the workshop.</p>
+<h2 id="surveys">Surveys</h2>
+In order to improve our teaching material, we ask you to complete a short survey after each lesson.
+Here are the links for each of the surveys:
+
+- [FAIR (Climate) data survey](https://www.surveymonkey.com/r/BGFQB55)
+- [FAIR software survey](https://www.surveymonkey.com/r/PNTZPYJ)
+- [ESMValTool survey](https://www.surveymonkey.com/r/P3DWCFF)
 
 <hr/>
 
@@ -233,58 +179,56 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
     <div class="col-md-4">
       <h3>FAIR (Climate) data (Oct 28)</h3>
       <table class="table table-striped"><tbody>
-        <tr> <td>09:00</td>  <td>Connect and get ready</td> </tr>
-        <tr> <td>09:30</td>  <td>Welcome and general information</td> </tr>
+        <tr> <td>09:15</td>  <td>Connect and get ready</td> </tr>
+        <tr style="font-weight:bold"> <td>09:30</td>  <td>Welcome and general information</td> </tr>
         <tr> <td>09:45</td>  <td>Introduction</td> </tr>
-        <tr> <td>10:00</td>  <td>Data documentation</td> </tr>
-        <tr> <td>10:15</td>  <td>Metadata</td> </tr>
-        <tr> <td>10:30</td>  <td>Coffee break</td> </tr>
-        <tr> <td>10:45</td>  <td>File formats</td> </tr>
-        <tr> <td>11:00</td>  <td>Data access</td> </tr>
-        <tr> <td>11:15</td>  <td>Persistent identifiers</td> </tr>
-        <tr> <td>11:30</td>  <td>Data Licenses</td> </tr>
-        <tr> <td>11:45</td>  <td>Conclusion</td> </tr>
-        <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-        <tr> <td>13:00</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
+        <tr> <td>10:00</td>  <td>Data documentation and metadata</td> </tr>
+        <tr style="font-weight:bold"> <td>10:45</td>  <td>Coffee break</td> </tr>
+        <tr> <td>11:00</td>  <td>File formats and data access</td> </tr>
+        <tr style="font-weight:bold"> <td>11:45</td>  <td>Coffee break</td> </tr>
+        <tr> <td>12:00</td>  <td>Persistent identifiers and data licences</td> </tr>
+        <tr style="font-weight:bold"> <td>13:00</td>  <td>Lunch break</td> </tr>
+        <tr> <td>14:15</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
         <tr> <td>15:45</td>  <td>Wrap-up (plenary)</td> </tr>
-        <tr> <td>16:00</td>  <td>End</td> </tr>
+        <tr style="font-weight:bold"> <td>16:00</td>  <td>End</td> </tr>
+        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/BGFQB55">survey</a></td> </tr>
       </tbody></table>
     </div>
     <div class="col-md-4">
       <h3>FAIR software (Nov 4)</h3>
       <table class="table table-striped"><tbody>
-        <tr> <td>09:00</td>  <td>Connect and get ready</td> </tr>
-        <tr> <td>09:30</td>  <td>Welcome and general information</td> </tr>
+        <tr> <td>09:15</td>  <td>Connect and get ready</td> </tr>
+        <tr style="font-weight:bold"> <td>09:30</td>  <td>Welcome and general information</td> </tr>
         <tr> <td>09:45</td>  <td>Introduction to 5 FAIR software recommendations</td> </tr>
         <tr> <td>10:00</td>  <td>Use a publicly accessible repository with version control</td> </tr>
-        <tr> <td>10:40</td>  <td>Coffee break</td> </tr>
+        <tr style="font-weight:bold"> <td>10:40</td>  <td>Coffee break</td> </tr>
         <tr> <td>10:55</td>  <td>Add a license</td> </tr>
         <tr> <td>11:25</td>  <td>Register your code in a community registry</td> </tr>
-        <tr> <td>11:55</td>  <td>Break</td> </tr>
+        <tr style="font-weight:bold"> <td>11:55</td>  <td>Coffee break</td> </tr>
         <tr> <td>12:10</td>  <td>Enable citation of the software</td> </tr>
         <tr> <td>12:40</td>  <td>Use a software quality checklist</td> </tr>
-        <tr> <td>13:10</td>  <td>Lunch break</td> </tr>
+        <tr style="font-weight:bold"> <td>13:10</td>  <td>Lunch break</td> </tr>
         <tr> <td>14:00</td>  <td>Group discussions and working together on own use cases in breakout rooms</td> </tr>
         <tr> <td>15:45</td>  <td>Wrap up (plenary)</td> </tr>
-        <tr> <td>16:00</td>  <td>End</td> </tr>
+        <tr style="font-weight:bold"> <td>16:00</td>  <td>End</td> </tr>
+        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/PNTZPYJ">survey</a></td> </tr>
       </tbody></table>
     </div>
     <div class="col-md-4">
       <h3>ESMValTool (Nov 11)</h3>
       <table class="table table-striped"><tbody>
-        <tr> <td>09:00</td>  <td>Connect and get ready</td> </tr>
-        <tr> <td>09:30</td>  <td>Welcome and general information</td> </tr>
-        <tr> <td>09:45</td>  <td>Installation</td> </tr>
-        <tr> <td>10:00</td>  <td>Introduction to ESMValTool</td> </tr>
-        <tr> <td>10:15</td>  <td>Configuration</td> </tr>
-        <tr> <td>10:30</td>  <td>Coffee break</td> </tr>
+        <tr> <td>09:15</td>  <td>Connect and get ready</td> </tr>
+        <tr style="font-weight:bold"> <td>09:30</td>  <td>Welcome and general information</td> </tr>
+        <tr> <td>09:45</td>  <td>Introduction, installation and configuration</td> </tr>
+        <tr  style="font-weight:bold"> <td>10:30</td>  <td>Coffee break</td> </tr>
         <tr> <td>10:45</td>  <td>Running a recipe</td> </tr>
-        <tr> <td>11:30</td>  <td>Coffee break</td> </tr>
+        <tr  style="font-weight:bold"> <td>11:30</td>  <td>Coffee break</td> </tr>
         <tr> <td>11:45</td>  <td>Making your own recipe</td> </tr>
-        <tr> <td>12:30</td>  <td>Lunch break</td> </tr>
-        <tr> <td>13:30</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
+        <tr  style="font-weight:bold"> <td>13:00</td>  <td>Lunch break</td> </tr>
+        <tr> <td>14:00</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
         <tr> <td>15:45</td>  <td>Wrap-up (plenary)</td> </tr>
-        <tr> <td>16:00</td>  <td>End</td> </tr>
+        <tr  style="font-weight:bold"> <td>16:00</td>  <td>End</td> </tr>
+        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/P3DWCFF">survey</a></td> </tr>
       </tbody></table>
     </div>
   </div>
