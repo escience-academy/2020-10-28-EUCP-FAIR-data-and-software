@@ -174,6 +174,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+<p>This is a preliminary schedule. Small changes might still be made by the instructors.</p>
 
 <div class="row">
     <div class="col-md-4">
@@ -247,7 +248,13 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Preparation before the workshop</h2>
+
+<div id="usecase">
+  <h3>Think about use cases</h3>
+  <p>
+  To get the most out of this workshop, please think beforehand about which datasets, software tools, data analysis notebooks, etc. you would like to make (more) FAIR. There will be exercises for which you can use your own use case, and in the afternoons there is time to discuss and work on your own use cases as well.
+  </p>
 
 <p>
   To participate in this
@@ -294,3 +301,31 @@ during the workshop.
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+
+<div id="github">
+  <h3>GitHub</h3>
+  <p>
+  On the second workshop day we will be working with git and GitHub. You will
+  need a GitHub account and some basic knowledge about GitHub and version
+  control. If you have never used it before, please have a look at GitHub's
+  <a href="https://guides.github.com/activities/hello-world/">Hello World tutorial</a> before the workshop.
+  </p>
+
+<div id="esmvaltool">
+  <h3>ESMValTool setup instructions</h3>
+  <p>
+  For the ESMValTool workshop it is highly recommended to use a Linux machine on
+  which you have admin priviliges. Mac or Windows should also work, but for
+  Windows you will need the Windows Subsystem for Linux (WSL). Please refer to
+  Microsofts <a
+  href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">installation
+  instructions</a>.
+  </p>
+  <p>
+  Please make sure to download the two datasets that we'll be using before the
+  workshop day (<a
+  href="http://esgf3.dkrz.de/thredds/fileServer/cmip6/CMIP/BCC/BCC-ESM1/historical/r1i1p1f1/Amon/tas/gn/v20181214/tas_Amon_BCC-ESM1_historical_r1i1p1f1_gn_185001-201412.nc">dataset1</a>,
+  <a
+  href="http://esgf2.dkrz.de/thredds/fileServer/lta_dataroot/cmip5/output1/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/tas/tas_Amon_CanESM2_historical_r1i1p1_185001-200512.nc">dataset2</a>)
+  and store them in a folder called "/esmvaltool_tutorial/data/".
+  </p>
