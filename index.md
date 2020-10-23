@@ -156,7 +156,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative drive</a
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-In order to improve our teaching material, we ask you to complete a short survey at the end of each workshop day.
+In order to improve our teaching material, we kindly ask you to complete a short survey at the end of each workshop day.
 Here are the links for each of the surveys:
 
 - [FAIR (Climate) data survey](https://www.surveymonkey.com/r/BGFQB55)
