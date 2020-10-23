@@ -73,7 +73,6 @@ This block displays the date and links to Google Calendar.
 <p id="when">
   <strong>When:</strong>
   {{page.humandate}}.
-  {% include workshop_calendar.html %}
 </p>
 {% endif %}
 
@@ -156,7 +155,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative drive</a
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-In order to improve our teaching material, we ask you to complete a short survey after each lesson.
+In order to improve our teaching material, we kindly ask you to complete a short survey at the end of each workshop day.
 Here are the links for each of the surveys:
 
 - [FAIR (Climate) data survey](https://www.surveymonkey.com/r/BGFQB55)
@@ -322,10 +321,10 @@ during the workshop.
   instructions</a>.
   </p>
   <p>
-  Please make sure to download the two datasets that we'll be using before the
+  We recommend you to create a dedicated directory as you working directory for ESMValTool workshop. For example, you can create this working directory under your home directory: <mark>~/esmvaltool_tutorial</mark>. Please make sure to download the two datasets that we'll be using before the
   workshop day (<a
   href="http://esgf3.dkrz.de/thredds/fileServer/cmip6/CMIP/BCC/BCC-ESM1/historical/r1i1p1f1/Amon/tas/gn/v20181214/tas_Amon_BCC-ESM1_historical_r1i1p1f1_gn_185001-201412.nc">dataset1</a>,
   <a
   href="http://esgf2.dkrz.de/thredds/fileServer/lta_dataroot/cmip5/output1/CCCma/CanESM2/historical/mon/atmos/Amon/r1i1p1/v20120718/tas/tas_Amon_CanESM2_historical_r1i1p1_185001-200512.nc">dataset2</a>)
-  and store them in a folder called "/esmvaltool_tutorial/data/".
+  and store them in the <mark>data</mark> folder under you working directory, e.g. <mark>~/esmvaltool_tutorial/data/</mark>.
   </p>
