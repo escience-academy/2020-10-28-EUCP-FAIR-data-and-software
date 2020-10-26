@@ -158,9 +158,9 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 In order to improve our teaching material, we kindly ask you to complete a short survey at the end of each workshop day.
 Here are the links for each of the surveys:
 
-- [FAIR (Climate) data survey](https://www.surveymonkey.com/r/BGFQB55)
-- [FAIR software survey](https://www.surveymonkey.com/r/PNTZPYJ)
-- [ESMValTool survey](https://www.surveymonkey.com/r/P3DWCFF)
+- [FAIR (Climate) data survey](https://www.surveymonkey.com/r/QW2J9ZR)
+- [FAIR software survey](https://www.surveymonkey.com/r/WY2DX2V)
+- [ESMValTool survey](https://www.surveymonkey.com/r/WYT62D5)
 
 <hr/>
 
@@ -191,7 +191,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
         <tr> <td>14:15</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
         <tr> <td>15:45</td>  <td>Wrap-up (plenary)</td> </tr>
         <tr style="font-weight:bold"> <td>16:00</td>  <td>End</td> </tr>
-        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/BGFQB55">survey</a></td> </tr>
+        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/QW2J9ZR">survey</a></td> </tr>
       </tbody></table>
     </div>
     <div class="col-md-4">
@@ -211,7 +211,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
         <tr> <td>14:00</td>  <td>Group discussions and working together on own use cases in breakout rooms</td> </tr>
         <tr> <td>15:45</td>  <td>Wrap up (plenary)</td> </tr>
         <tr style="font-weight:bold"> <td>16:00</td>  <td>End</td> </tr>
-        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/PNTZPYJ">survey</a></td> </tr>
+        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/WY2DX2V">survey</a></td> </tr>
       </tbody></table>
     </div>
     <div class="col-md-4">
@@ -228,7 +228,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
         <tr> <td>14:00</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
         <tr> <td>15:45</td>  <td>Wrap-up (plenary)</td> </tr>
         <tr  style="font-weight:bold"> <td>16:00</td>  <td>End</td> </tr>
-        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/P3DWCFF">survey</a></td> </tr>
+        <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/WYT62D5">survey</a></td> </tr>
       </tbody></table>
     </div>
   </div>
