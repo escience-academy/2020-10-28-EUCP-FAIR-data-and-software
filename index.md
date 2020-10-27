@@ -155,7 +155,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative drive</a
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-In order to improve our teaching material, we kindly ask you to complete a short survey at the end of each workshop day. Note that it is a standard survey, so some of the questions may seem obvious, but it helps us compare between different workshops. 
+In order to improve our teaching material, we kindly ask you to complete a short survey at the end of each workshop day. Note that it is a standard survey, so some of the questions may seem obvious, but it helps us compare between different workshops.
 Here are the links for each of the surveys:
 
 - [FAIR (Climate) data survey](https://www.surveymonkey.com/r/QW2J9ZR)
@@ -180,14 +180,19 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
       <h3>FAIR (Climate) data (Oct 28)</h3>
       <table class="table table-striped"><tbody>
         <tr> <td>09:15</td>  <td>Connect and get ready</td> </tr>
-        <tr style="font-weight:bold"> <td>09:30</td>  <td>Welcome and general information</td> </tr>
-        <tr> <td>09:45</td>  <td>Introduction</td> </tr>
-        <tr> <td>10:00</td>  <td>Data documentation and metadata</td> </tr>
-        <tr style="font-weight:bold"> <td>10:45</td>  <td>Coffee break</td> </tr>
-        <tr> <td>11:00</td>  <td>File formats and data access</td> </tr>
-        <tr style="font-weight:bold"> <td>11:45</td>  <td>Coffee break</td> </tr>
-        <tr> <td>12:00</td>  <td>Persistent identifiers and data licences</td> </tr>
+        <tr style="font-weight:bold"> <td>09:30</td>  <td>Welcome and icebreaker</td> </tr>
+        <tr> <td>09:50</td>  <td>General introduction</td> </tr>
+        <tr> <td>10:00</td>  <td>What is FAIR</td> </tr>
+        <tr> <td>10:20</td>  <td>Data documentation</td> </tr>
+        <tr style="font-weight:bold"> <td>10:40</td>  <td>Coffee break</td> </tr>
+        <tr> <td>11:00</td>  <td> Metadata</td> </tr>
+        <tr> <td>11:20</td>  <td> File formats</td> </tr>
+        <tr> <td>11:40</td>  <td> Data access</td> </tr>
+        <tr style="font-weight:bold"> <td>12:00</td>  <td>Coffee break</td> </tr>
+        <tr> <td>12:20</td>  <td>Persistent identifiers</td> </tr>
+        <tr> <td>12:40</td>  <td>Data licences</td> </tr>
         <tr style="font-weight:bold"> <td>13:00</td>  <td>Lunch break</td> </tr>
+        <tr> <td>14:00</td>  <td>Recap and introduce breakout programme</td> </tr>
         <tr> <td>14:15</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
         <tr> <td>15:45</td>  <td>Wrap-up (plenary)</td> </tr>
         <tr style="font-weight:bold"> <td>16:00</td>  <td>End</td> </tr>
