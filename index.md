@@ -10,8 +10,8 @@ humandate: "Oct 28, Nov 4, Nov 11, 2020"
 humantime: "9:15 - 16:00 CET"
 startdate: 2020-10-28
 enddate: 2020-11-11
-instructor: ["Peter Kalverla", "Jaro Camphuijsen", "Johan Hidding"]
-helper: ["Sarah Alidoost", "Stef Smeets", "Niels Drost", "Bouwe Andela", "Faruk Diblen", "Ou Ku"]
+instructor: ["Peter Kalverla", "Jaro Camphuijsen", "Johan Hidding", "Faruk Diblen"]
+helper: ["Sarah Alidoost", "Stef Smeets", "Niels Drost", "Bouwe Andela", "Ou Ku"]
 email: ["p.kalverla@esciencecenter.nl","f.alidoost@esciencecenter.nl"]
 collaborative_notes: https://nlesc.sharepoint.com/:f:/s/team-beta/EgtUYOWdlfFNsmgpJxAKqiwBmBLuoqw0wc3_69SLq0gtpQ
 ---
