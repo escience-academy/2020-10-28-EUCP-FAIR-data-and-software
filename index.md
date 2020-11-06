@@ -229,10 +229,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
         <tr> <td>10:45</td>  <td>Running a recipe</td> </tr>
         <tr  style="font-weight:bold"> <td>11:30</td>  <td>Coffee break</td> </tr>
         <tr> <td>11:45</td>  <td>Making your own recipe</td> </tr>
-        <tr  style="font-weight:bold"> <td>13:00</td>  <td>Lunch break</td> </tr>
-        <tr> <td>14:00</td>  <td>Group discussions and work together on own use cases in breakout rooms</td> </tr>
-        <tr> <td>15:45</td>  <td>Wrap-up (plenary)</td> </tr>
-        <tr  style="font-weight:bold"> <td>16:00</td>  <td>End</td> </tr>
+        <tr> <td>12:45</td>  <td>Wrap-up of the workshop</td> </tr>
+        <tr  style="font-weight:bold"> <td>13:00</td>  <td>End</td> </tr>
         <tr> <td> </td>  <td> Please take a minute to complete the <a href="https://www.surveymonkey.com/r/WYT62D5">survey</a></td> </tr>
       </tbody></table>
     </div>
